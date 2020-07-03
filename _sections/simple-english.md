@@ -20,4 +20,4 @@ SECTION 7: The mandatory provisions of this Directive shall not apply to:
 8. 	Individuals who are incarcerated. Prisons and jails, as part of their mitigation plans, will have specific guidance on the wearing of face coverings or masks for both inmates and staff.
 
 ### Simple poster with instructions
-![](/assets/images/poster_after.png)
+![](assets/images/poster_after.png)
