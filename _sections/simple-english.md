@@ -1,7 +1,7 @@
 ---
 title: Simple English
 icon: fa-check
-order: 5
+order: 3
 ---
 
 I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](/assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions on English can be re-written in a simple, more understandable way.
