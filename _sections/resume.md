@@ -19,4 +19,3 @@ Click to view in fullscreen.
 
 
     </div>
-  </div>
