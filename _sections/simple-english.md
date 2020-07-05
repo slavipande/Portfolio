@@ -1,12 +1,12 @@
 ---
-title: Simple English
+title: Plain English
 icon: fa-check
 order: 3
 ---
 
-I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](/assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions on English can be re-written in a simple, more understandable way.
+This is an exercise in translating overwritten English into plain language. I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](/assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions in English can be re-written in a simple, more understandable way.
 
-### Original text
+### Original Text
 		
 SECTION 7: The mandatory provisions of this Directive shall not apply to:
 
@@ -19,5 +19,8 @@ SECTION 7: The mandatory provisions of this Directive shall not apply to:
 7. 	Individuals who are engaged in outdoor work or recreation such as swimming, wallking, hiking, bicycling, or running, when alone or with household members, and when they are able to maintain a distance of at least six feet from others.
 8. 	Individuals who are incarcerated. Prisons and jails, as part of their mitigation plans, will have specific guidance on the wearing of face coverings or masks for both inmates and staff.
 
-### Simple poster with instructions
+### Instructions In Plain English Printed On a Poster
+Use Case:
+As the manager of Big Box Store, I need to post these directives. The poster below states who is excluded.
+
 ![](assets/images/poster_after.png)
