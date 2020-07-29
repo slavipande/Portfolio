@@ -4,9 +4,7 @@ icon: fa-check
 order: 4
 ---
 
-Click to view in fullscreen.
-
- <div class="row">
+<div class="row">
     <div class="4u 12u$(mobile)">
 
       <div class="item">
