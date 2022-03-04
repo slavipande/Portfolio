@@ -23,6 +23,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
   gem "commonmarker", ">= 0.23.4"
+  gem "kramdown", ">= 2.3.1"
 end
 
 # Performance-booster for watching directories on Windows
