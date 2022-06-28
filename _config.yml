@@ -62,5 +62,4 @@ google_analytics:
 
 remote_theme: chrisbobbe/jekyll-theme-prologue
 plugins:
-  - jekyll-admin
 collections: [sections]
