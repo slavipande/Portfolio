@@ -1,8 +1,10 @@
 ---
 title: Plain English
 icon: fa-check
-order: 3
+hide: true
 ---
+
+### Context
 
 This is an exercise in translating overwritten English into plain language. I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions in English can be re-written in a simple, more understandable way.
 
@@ -24,3 +26,9 @@ Use Case:
 As the manager of Big Box Store, I need to post these directives. The poster below states who is excluded.
 
 ![](assets/images/poster_after.png)
+
+
+### Tools
+
+- [Hemingway Editor](https://hemingwayapp.com/) to check readability grade while editing.
+- [Canva](https://www.canva.com/) to create the poster. 
