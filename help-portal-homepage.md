@@ -1,11 +1,11 @@
 ---
-title: Enable Blogging in MkDocs
+title: Help Portal Homepage
 layout: page
 icon: fa-check
 hide: true
 ---
 
-![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
+![Help Portal Homepage Illustration](assets/images/undraw_Building_blocks_re_5ahy.png)
 
 ### Context
 Some background info about about the dev tutorials

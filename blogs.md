@@ -1,11 +1,11 @@
 ---
-title: Enable Blogging in MkDocs
+title: Blogs
 layout: page
 icon: fa-check
 hide: true
 ---
 
-![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
+![Blogs Illustration](assets/images/undraw_add_information_j2wg.png)
 
 ### Context
 Some background info about about the dev tutorials

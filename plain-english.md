@@ -4,6 +4,8 @@ icon: fa-check
 hide: true
 ---
 
+![Plain English Illustration](assets/images/undraw_Personal_notebook_re_d7dc.png)
+
 ### Context
 
 This is an exercise in translating overwritten English into plain language. I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions in English can be re-written in a simple, more understandable way.

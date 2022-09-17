@@ -1,11 +1,11 @@
 ---
-title: Enable Blogging in MkDocs
+title: Step-by-Step Instructions
 layout: page
 icon: fa-check
 hide: true
 ---
 
-![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
+![Step-by-Step Illustration](assets/images/undraw_tasks_re_v2v4.png)
 
 ### Context
 Some background info about about the dev tutorials
@@ -13,6 +13,8 @@ Some background info about about the dev tutorials
 ### Links
 
 Links to published tutorials
+
+[Link to resource](https://slavipande.atlassian.net/wiki/spaces/SUM/pages/360449/Creating+new+records+in+Salesforce+s+Service+App)
 
 ### My role
 

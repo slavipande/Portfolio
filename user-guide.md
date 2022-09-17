@@ -1,11 +1,11 @@
 ---
-title: Enable Blogging in MkDocs
+title: User Guide
 layout: page
 icon: fa-check
 hide: true
 ---
 
-![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
+![User Guide Illustration](assets/images/undraw_Steps_re_odoy.png)
 
 ### Context
 Some background info about about the dev tutorials
@@ -13,6 +13,8 @@ Some background info about about the dev tutorials
 ### Links
 
 Links to published tutorials
+
+[Link to resource](assets/docs/User%20Guide_Salesforce's%20Service%20App.pdf)
 
 ### My role
 
