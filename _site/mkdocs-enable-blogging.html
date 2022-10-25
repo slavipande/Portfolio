@@ -59,7 +59,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 <h3 id="context">Context</h3>
 <p><a href="https://www.dirigible.io/">Eclipse Dirigible</a> is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development lifecycle. I’ve supported the project for around 18 months, contributing and editing content in the <a href="https://www.dirigible.io/help/">Eclipse Dirigible Documentation</a>, adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation landing page’s look and feel.</p>
 
-<p>Although initially built with <a href="https://jekyllrb.com/">Jekyll</a>, at one point the team decided to move the project’s main website(<a href="https://www.dirigible.io/">https://www.dirigible.io/</a>), including <a href="https://www.dirigible.io/help/">documentation</a>, <a href="https://www.dirigible.io/blogs/">blogs</a>, and other subdomains to <a href="https://www.mkdocs.org/">MkDocs</a> with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>.</p>
+<p>Although initially built with <a href="https://jekyllrb.com/">Jekyll</a>, at one point the team decided to move the project’s main website (<a href="https://www.dirigible.io/">https://www.dirigible.io/</a>), including <a href="https://www.dirigible.io/help/">documentation</a>, <a href="https://www.dirigible.io/blogs/">blogs</a>, and other subdomains to <a href="https://www.mkdocs.org/">MkDocs</a> with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>.</p>
 <h3 id="my-role">My role</h3>
 
 <p>At this point, Material for MkDocs did not support blogging capabilities out-of-the-box. While exploring the Material for MkDocs’ site, I saw a page that included author’s name and avatar, publish date, and reading time at the top, much like a blog.</p>
@@ -111,12 +111,12 @@ I opened a <a href="https://github.com/squidfunk/mkdocs-material/discussions/310
 <p>However, this meant that each author had to manually paste a block of HTML in their markdown file each time they write a new blog post. This was not the best approach for us and we wanted to have the blogging capabilities enabled if relevant metadata is provided in the markdown source.</p>
 
 <p>Hence, I started looking into the documentation for possible solutions.
-In [Meta-Data](<a href="https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data">https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data</a>, I saw that the values of any meta data keys-value pairings can be displayed on the page or used to control the page rendering. In addition, I learned from <a href="https://squidfunk.github.io/mkdocs-material/reference/#using-metadata-in-templates">Using metadata in templates</a> and <a href="https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks">Overriding blocks</a> that there are different blocks in the page template files that can be extended and overwritten. For this purpose, I did the following:</p>
+In <a href="https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data">Meta-Data</a>, I saw that the values of any metadata keys-value pairings can be displayed on the page or used to control the page rendering. In addition, I learned from <a href="https://squidfunk.github.io/mkdocs-material/reference/#using-metadata-in-templates">Using metadata in templates</a> and <a href="https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks">Overriding blocks</a> that there are different blocks in the page template files that can be extended and overwritten. For this purpose, I did the following:</p>
 
 <ul>
   <li>Found that the <code class="language-plaintext highlighter-rouge">content</code> block is the part of the HTML template responsible for the page content.</li>
   <li>
-    <p>Followed the instructions to override the <code class="language-plaintext highlighter-rouge">content</code> block and pasted the blogging-capabilities HTML code in it. This way I created a customized <code class="language-plaintext highlighter-rouge">main.html</code> that has a <code class="language-plaintext highlighter-rouge">content</code> block overriding the default one. However, the values in it were still hardcoded. We had to replace all hardcoded values in the current <code class="language-plaintext highlighter-rouge">content</code> block in <code class="language-plaintext highlighter-rouge">main.html</code> so that for each particular page the values should be populated from the meta data - <code class="language-plaintext highlighter-rouge">author</code>, <code class="language-plaintext highlighter-rouge">author_gh_user</code>, <code class="language-plaintext highlighter-rouge">read_time</code>, <code class="language-plaintext highlighter-rouge">publish_date</code>.</p>
+    <p>Followed the instructions to override the <code class="language-plaintext highlighter-rouge">content</code> block and pasted the blogging-capabilities HTML code in it. This way I created a customized <code class="language-plaintext highlighter-rouge">main.html</code> that had a <code class="language-plaintext highlighter-rouge">content</code> block overriding the default one. However, the values in it were still hardcoded. We had to replace all hardcoded values in the current <code class="language-plaintext highlighter-rouge">content</code> block in <code class="language-plaintext highlighter-rouge">main.html</code> so that for each particular page the values should be populated from the metadata - <code class="language-plaintext highlighter-rouge">author</code>, <code class="language-plaintext highlighter-rouge">author_gh_user</code>, <code class="language-plaintext highlighter-rouge">read_time</code>, <code class="language-plaintext highlighter-rouge">publish_date</code>.</p>
 
     <table>
       <thead>
@@ -132,7 +132,7 @@ In [Meta-Data](<a href="https://www.mkdocs.org/user-guide/writing-your-docs/#met
     </table>
   </li>
   <li>
-    <p>Armed with my observations, I set up a call with the dev colleagues and explained what changes we had to make. Thanks to the conditional syntax in the template files, we were able to extend the <code class="language-plaintext highlighter-rouge">main.html</code> with an additional <code class="language-plaintext highlighter-rouge">content</code> block that’s only included if a value is provided for <code class="language-plaintext highlighter-rouge">author_gh_user</code> in the meta data of the source file.</p>
+    <p>Armed with my observations, I set up a call with the dev colleagues and explained what changes we had to make. Thanks to the conditional syntax in the template files, we were able to extend the <code class="language-plaintext highlighter-rouge">main.html</code> with an additional <code class="language-plaintext highlighter-rouge">content</code> block that’s only included if a value is provided for <code class="language-plaintext highlighter-rouge">author_gh_user</code> in the metadata of the source file.</p>
 
     <table>
       <thead>
@@ -160,7 +160,7 @@ In [Meta-Data](<a href="https://www.mkdocs.org/user-guide/writing-your-docs/#met
   <li>Git and GitHub</li>
   <li>Snagit</li>
   <li>MkDocs and Material for MkDocs</li>
-  <li><a href="https://www.w3schools.com/">W3schools</a> for HTML and CSS learning on the go</li>
+  <li><a href="https://www.w3schools.com/">W3schools</a> for learning HTML/CSS and trying out things on the go</li>
 </ul>
 
 <h3 id="update">Update</h3>
