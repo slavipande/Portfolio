@@ -52,6 +52,8 @@ In [Meta-Data](https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data), 
     | *Screenshot from October 15, 2021* |
 
 
+- Added a [Blogs](https://www.dirigible.io/help/community/#blogs) section to the [Community](https://www.dirigible.io/help/community/) page with instructions for authors on how to enable the blogging capabilities when writing a blog.
+
 
 ### [Enable Blogging Capabilities with Material for MkDocs](https://www.dirigible.io/blogs/2021/11/2/material-blogging-capabilities/)
 I also wrote a blog post that explains all this in detail and provides code samples, too. Follow the link above to check it out.
