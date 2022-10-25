@@ -18,6 +18,7 @@ These tutorials guide beginner and experienced developers through the steps of l
 - [Consume Remote Services from SAP S/4HANA Using CAP](https://developers.sap.com/mission.btp-consume-external-service-s4hana-cap.html)
 - [Consume Events from SAP S/4HANA Cloud Using CAP](https://developers.sap.com/mission.btp-consume-events-s4hana-cloud-cap.html)
 - [Deploy Your CAP Application on SAP BTP Kyma Runtime](https://developers.sap.com/mission.btp-deploy-cap-kyma.html)
+- [Create an SAP Fiori Elements-Based Analytical UI for your CAP Application](https://developers.sap.com/tutorials/btp-app-analytics-setup-use.html)
 
 ### My role
 
@@ -39,7 +40,8 @@ More often than not, great documentation comes as a result of the collaboration 
 
 ### Tools
 
-- VS Code for testing the dev projects, editing tutorials' markdown source files.
-- MkDocs with Material for MkDocs for building and local preview of the tutorials.
-- Snagit for taking and editing screenshots.
-- Git and GitHub for version control, creating documentation issues, tracking tutorials' roadmap progress, and creating/merging pull requests.
+- VS Code
+- MkDocs with Material for MkDocs
+- Snagit
+- Git and GitHub
+- Bash
