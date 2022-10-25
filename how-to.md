@@ -1,5 +1,5 @@
 ---
-title: Step-by-Step Instructions
+title: How-to Instructions
 layout: page
 icon: fa-check
 hide: true
