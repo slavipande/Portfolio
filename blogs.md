@@ -8,23 +8,13 @@ hide: true
 ![Blogs Illustration](assets/images/undraw_add_information_j2wg.png)
 
 ### Context
-[Eclipse Dirigible](https://www.dirigible.io/) is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development lifecycle. I've supported the project for around 18 months, contributing and editing content in the [Eclipse Dirigible Documentation](https://www.dirigible.io/help/), adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation homepage's look and feel.
-
-Although initially built with [Jekyll](https://jekyllrb.com/), at one point the team decided to move the project's main website ([https://www.dirigible.io/](https://www.dirigible.io/)), including [documentation](https://www.dirigible.io/help/), [blogs](https://www.dirigible.io/blogs/), and other subdomains to [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). 
+Writing blog posts is not part of my day-to-day tasks and I do not have any significant experience with it. On top, I've always had a hard time deciding on a topic for writing a blog post. However, in the rare cases I've had the chance to write a blog post, I've really enjoyed the process. Hence, I'm saving a link to every blog post I write on this page as each of them are somehow special to me.
 
 ### Links
 
 - [Enable Blogging Capabilities with Material for MkDocs](https://www.dirigible.io/blogs/2021/11/2/material-blogging-capabilities/)
 - [Dirigible now runs Material for MkDocs](https://www.dirigible.io/blogs/2021/11/1/dirigible-runs-material/)
 
-### My role
 
-How was I involded, what exactly did I do
-
-### Tools
-
-- VS Code
-- MkDocs with Material for MkDocs
-- Snagit
-- Git and GitHub
-- Bash
+<!-- ### [Grow As Tech Writer blog](grow-as-tech-writer-blog.html)
+ I've also started my own blog as a way of challenging myself to go out of my comfort zone and do something I don't feel too confident about. It is already live and you can access it via the link above. Go check out the blogs I've already posted there.-->
