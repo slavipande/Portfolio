@@ -34,3 +34,8 @@ Summary of activities (what did I do), what I learned during my time in the posi
 Summary of activities (what did I do), what I learned during my time in the position (in terms of technologies + also in terms of soft skills ), what tools did I use, any voluntary experience or trainings, changes in career directions and opinions. etc.
 
 > I had to meet clients, understand what their problem was, map it to a solution, and then provide a technical description for the solution. During this time, I started to realize how much I enjoyed describing technical stuff in writing. 
+
+### Volunteering
+
+- Beta-tester for a couple of tech writing courses published online
+- Joined the local tekom community to help organize events and make the tech writing profession more popular

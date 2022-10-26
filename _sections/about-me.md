@@ -10,9 +10,5 @@ During my first job as a pre-sales engineer, I noticed how much I enjoyed descri
 
 A few months into the profession, I started realizing that technical writing had the perfect balance between tech-savviness and writing for me. I learned about specific tech writing niches and approaches like developer documentation, API docs, docs-as-code, and static site generators. Since then, I've been creating developer tutorials following a docs-as-code setup. I especially enjoy the collaboration nature of the docs-as-code approach and how easy and seamless it is to get dev input on your docs. The developer documentation realm is a great fit for me and I'm enjoying it big time.
 
-### Volunteering
-
-#### Beta-tester for a couple of tech writing courses published online
-#### Joined the local tekom community to help organize events and make the tech writing profession more popular
 
   
