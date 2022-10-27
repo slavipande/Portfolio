@@ -8,7 +8,9 @@ hide: true
 
 ### Context
 
-This is an exercise in translating overwritten English into plain language. I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions in English can be re-written in a simple, more understandable way.
+I completed this exercise as part of a technical writing course I took in 2020 - [Become Technical Writer](https://becometechnicalwriter.com/) led by [Bobby Kennedy](https://www.linkedin.com/in/robert-b-kennedy-a2458b224/). I found out about the course from the Write the Docs' [Slack Network](https://www.writethedocs.org/slack/) where Bobby posted a call for beta testers. I was quick and lucky enough to respond and became one of the beta testers for the course. Later I also bought the course itself as I felt there was still a lot to learn (not to mention that all beta testers got a discount (: ). This exercise in translating overwritten English into plain language was part of the assignments I completed throughout the course.
+
+I used Section 7 of Directive 024 of the State of Nevada's Declaration of Emergency ([see the full declaration here](assets/docs/Directive-Face-Coverings.pdf)) as an example of how complex expressions in English can be re-written in a simple, more understandable way.
 
 ### Original Text
 		
@@ -27,7 +29,7 @@ SECTION 7: The mandatory provisions of this Directive shall not apply to:
 Use Case:
 As the manager of Big Box Store, I need to post these directives. The poster below states who is excluded.
 
-![](assets/images/poster_after.png)
+![Canva Poster](assets/images/poster_after.png)
 
 
 ### Tools
