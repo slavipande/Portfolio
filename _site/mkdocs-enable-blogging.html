@@ -117,34 +117,20 @@ In <a href="https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data">Meta
   <li>
     <p>Followed the instructions to override the <code class="language-plaintext highlighter-rouge">content</code> block and pasted the blogging-capabilities HTML code in it. This way I created a customized <code class="language-plaintext highlighter-rouge">main.html</code> that had a <code class="language-plaintext highlighter-rouge">content</code> block overriding the default one. However, the values in it were still hardcoded. We had to replace all hardcoded values in the current <code class="language-plaintext highlighter-rouge">content</code> block in <code class="language-plaintext highlighter-rouge">main.html</code> so that for each particular page the values should be populated from the metadata - <code class="language-plaintext highlighter-rouge">author</code>, <code class="language-plaintext highlighter-rouge">author_gh_user</code>, <code class="language-plaintext highlighter-rouge">read_time</code>, <code class="language-plaintext highlighter-rouge">publish_date</code>.</p>
 
-    <table>
-      <thead>
-        <tr>
-          <th style="text-align: center"><img src="/assets/images/blog-metadata.png" alt="Blog Metadata" /></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="text-align: center"><em>Screenshot from October 15, 2021</em></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="s">---</span>
+  <span class="s">title</span><span class="pi">:</span> <span class="s">Enable Blogging Capabilities with Material for MkDocs</span>
+  <span class="na">description</span><span class="pi">:</span> <span class="s">In this article we are going to ...</span>
+  <span class="na">author</span><span class="pi">:</span> <span class="s">Svetoslav Pandeliev</span>
+  <span class="na">author_gh_user</span><span class="pi">:</span> <span class="s">slavipande</span>
+  <span class="na">read_time</span><span class="pi">:</span> <span class="s">10 min</span>
+  <span class="na">publish_date</span><span class="pi">:</span> <span class="s">November 2, </span><span class="m">2021</span>
+  <span class="s">---</span>
+</code></pre></div>    </div>
   </li>
   <li>
     <p>Armed with my observations, I set up a call with the dev colleagues and explained what changes we had to make. Thanks to the conditional syntax in the template files, we were able to extend the <code class="language-plaintext highlighter-rouge">main.html</code> with an additional <code class="language-plaintext highlighter-rouge">content</code> block that’s only included if a value is provided for <code class="language-plaintext highlighter-rouge">author_gh_user</code> in the metadata of the source file.</p>
 
-    <table>
-      <thead>
-        <tr>
-          <th style="text-align: center"><img src="/assets/images/blog-html.png" alt="Blog HMTL" /></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="text-align: center"><em>Screenshot from October 15, 2021</em></td>
-        </tr>
-      </tbody>
-    </table>
+    <p><img src="/assets/images/blog-html.png" alt="Blog HMTL" /></p>
   </li>
   <li>Added a <a href="https://www.dirigible.io/help/community/#blogs">Blogs</a> section to the <a href="https://www.dirigible.io/help/community/">Community</a> page with instructions for authors on how to enable the blogging capabilities when writing a blog.</li>
 </ul>

@@ -42,16 +42,21 @@ In [Meta-Data](https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data), 
 - Found that the `content` block is the part of the HTML template responsible for the page content.
 - Followed the instructions to override the `content` block and pasted the blogging-capabilities HTML code in it. This way I created a customized `main.html` that had a `content` block overriding the default one. However, the values in it were still hardcoded. We had to replace all hardcoded values in the current `content` block in `main.html` so that for each particular page the values should be populated from the metadata - `author`, `author_gh_user`, `read_time`, `publish_date`.
 
-    | ![Blog Metadata](assets/images/blog-metadata.png) | 
-    |:--:| 
-    | *Screenshot from October 15, 2021* |
+    ```yaml
+    ---
+    title: Enable Blogging Capabilities with Material for MkDocs
+    description: In this article we are going to ...
+    author: Svetoslav Pandeliev
+    author_gh_user: slavipande
+    read_time: 10 min
+    publish_date: November 2, 2021
+    ---
+    ````
+
 
 - Armed with my observations, I set up a call with the dev colleagues and explained what changes we had to make. Thanks to the conditional syntax in the template files, we were able to extend the `main.html` with an additional `content` block that's only included if a value is provided for `author_gh_user` in the metadata of the source file.
 
-    | ![Blog HMTL](assets/images/blog-html.png) | 
-    |:--:| 
-    | *Screenshot from October 15, 2021* |
-
+    ![Blog HMTL](assets/images/blog-html.png)
 
 - Added a [Blogs](https://www.dirigible.io/help/community/#blogs) section to the [Community](https://www.dirigible.io/help/community/) page with instructions for authors on how to enable the blogging capabilities when writing a blog.
 
