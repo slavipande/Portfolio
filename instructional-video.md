@@ -16,8 +16,6 @@ hide: true
 
 ### My role
 
-My part of the project was to create the video:
-
 - Wrote the video script and got it reviewed by colleagues.
 - Teamed up with a colleague to make the raw video recordings and voice over.
 - Edited and combined together the raw video and audio into a complete video. 
