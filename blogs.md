@@ -8,7 +8,7 @@ hide: true
 ![Blogs Illustration](assets/images/undraw_add_information_j2wg.png)
 
 ### Context
-Writing blog posts is not part of my day-to-day tasks and I do not have any significant experience with it. On top, I've always had a hard time deciding on a topic for writing a blog post. However, in the rare cases I've had the chance to write a blog post, I've really enjoyed the process. Hence, I'm saving a link to every blog post I write on this page as each of them are somehow special to me.
+Writing blog posts is not part of my day-to-day tasks and I do not have any significant experience with it. On top, I've always had a hard time deciding on a topic for writing a blog post. However, in the rare cases I've had the chance to write a blog post, I've really enjoyed the process. Hence, I'm saving a link to every blog post I write on this page as they are all somehow special to me.
 
 ### Links
 
