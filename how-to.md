@@ -18,6 +18,6 @@ I wrote these instructions as part of a technical writing course I took in 2020 
 
 ### Tools
 
-- [Saleforce (developer edition)](https://www.salesforce.com/) - via the **Try for free** option
+- [Salesforce (developer edition)](https://www.salesforce.com/) - via the **Try for free** option
 - [Confluence](https://www.atlassian.com/software/confluence) - via the **Get it free** option
 - Snagit

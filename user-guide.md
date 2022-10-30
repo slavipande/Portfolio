@@ -16,6 +16,6 @@ I wrote this user guide as part of a technical writing course I took in 2020 - [
 
 ### Tools
 
-- [Saleforce (developer edition)](https://www.salesforce.com/) - via the **Try for free** option
+- [Salesforce (developer edition)](https://www.salesforce.com/) - via the **Try for free** option
 - Microsoft Word
 - Snagit
