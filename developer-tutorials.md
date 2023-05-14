@@ -22,9 +22,9 @@ These tutorials guide beginner and experienced developers through the steps of l
 
 ### My role
 
-More often than not, great documentation comes as a result of the collaboration of several people with different profiles. I worked on these tutorials as part of a small team consisting of myself, a dev architect, an information architect, and another technical writer with a scripting expertise. Here's how I contributed:
+More often than not, great documentation comes as a result of the collaboration of several people with different profiles. I worked on these tutorials as part of a small team consisting of myself, a development architect, an information architect, and another technical writer with a scripting expertise. Here's how I contributed:
 
-- Pick up raw tutorial drafts from the dev architect.
+- Pick up raw tutorial drafts from the development architect.
 - Review and edit the tutorial from a language perspective.
 - Install and configure any required tools to prepare my development environment for testing. 
 - Test the tutorial step by step.

@@ -8,7 +8,7 @@ hide: true
 ![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
 
 ### Context
-[Eclipse Dirigible](https://www.dirigible.io/) is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development lifecycle. I've supported the project for around 18 months, contributing and editing content in the [Eclipse Dirigible Documentation](https://www.dirigible.io/help/), adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation homepage's look and feel.
+[Eclipse Dirigible](https://www.dirigible.io/) is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development life cycle. I've supported the project for around 18 months, contributing and editing content in the [Eclipse Dirigible Documentation](https://www.dirigible.io/help/), adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation homepage's look and feel.
 
 Although initially built with [Jekyll](https://jekyllrb.com/), at one point the team decided to move the project's main website ([https://www.dirigible.io/](https://www.dirigible.io/)), including [documentation](https://www.dirigible.io/help/), [blogs](https://www.dirigible.io/blogs/), and other subdomains to [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). 
 
@@ -21,7 +21,7 @@ At this point, Material for MkDocs did not support blogging capabilities out-of-
 | *Screenshot from October 11, 2021* |
 
 I suggested to the team that we try to replicate this for the [Eclipse Dirigible Blogs](https://www.dirigible.io/blogs/) site.
-I opened a [discussion](https://github.com/squidfunk/mkdocs-material/discussions/3101) in the [Material for MkDocs repo](https://github.com/squidfunk/mkdocs-material/discussions). The maintainer, [Martin Donath](https://github.com/squidfunk), responded right away that this was an all-manual process involving just HTML + CSS and also provided the raw code of his own implementation. 
+I opened a [discussion](https://github.com/squidfunk/mkdocs-material/discussions/3101) in the [Material for MkDocs repository](https://github.com/squidfunk/mkdocs-material/discussions). The maintainer, [Martin Donath](https://github.com/squidfunk), responded right away that this was an all-manual process involving just HTML + CSS and also provided the raw code of his own implementation. 
 
 
 | ![Original Markdown](assets/images/original-md.png) | 
@@ -40,7 +40,7 @@ Hence, I started looking into the documentation for possible solutions.
 In [Meta-Data](https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data), I saw that the values of any metadata keys-value pairings can be displayed on the page or used to control the page rendering. In addition, I learned from [Using metadata in templates](https://squidfunk.github.io/mkdocs-material/reference/#using-metadata-in-templates) and [Overriding blocks](https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks) that there are different blocks in the page template files that can be extended and overwritten. For this purpose, I did the following:
 
 - Found that the `content` block is the part of the HTML template responsible for the page content.
-- Followed the instructions to override the `content` block and pasted the blogging-capabilities HTML code in it. This way I created a customized `main.html` that had a `content` block overriding the default one. However, the values in it were still hardcoded. We had to replace all hardcoded values in the current `content` block in `main.html` so that for each particular page the values should be populated from the metadata - `author`, `author_gh_user`, `read_time`, `publish_date`.
+- Followed the instructions to override the `content` block and pasted the blogging-capabilities HTML code in it. This way I created a customized `main.html` that had a `content` block overriding the default one. However, the values in it were still hard-coded. We had to replace all hard-coded values in the current `content` block in `main.html` so that for each particular page the values should be populated from the metadata - `author`, `author_gh_user`, `read_time`, `publish_date`.
 
     ```yaml
     ---

@@ -21,8 +21,8 @@ SECTION 7: The mandatory provisions of this Directive shall not apply to:
 3. 	Individuals who cannot wear a face covering due to a medical condition or disability, or who are unable to remove a mask without assistance. Persons exempted under   this provision should wear a non-restrictive alternative, such as a face shield. Persons exempted under this provision shall not be required to produce documentation verifying the condition.
 4. 	Individuals for whom wearing a face covering would create a risk to the person related to their work, as determined by local, state, or federal regulators or workplace safety guidelines.
 5. 	Individuals who are obtaining a service involving the nose or face for which the temporary removal of the face covering is necessary to perform that service.
-6. 	Individuals who are seated at a restaurant or other establishment th.at offers food or beverage services, while they are eating or drinking, provided that they are able to maintain a distance of at least six feet away from persons who are not members of the same household or residence.
-7. 	Individuals who are engaged in outdoor work or recreation such as swimming, wallking, hiking, bicycling, or running, when alone or with household members, and when they are able to maintain a distance of at least six feet from others.
+6. 	Individuals who are seated at a restaurant or other establishment that offers food or beverage services, while they are eating or drinking, provided that they are able to maintain a distance of at least six feet away from persons who are not members of the same household or residence.
+7. 	Individuals who are engaged in outdoor work or recreation such as swimming, walking, hiking, bicycling, or running, when alone or with household members, and when they are able to maintain a distance of at least six feet from others.
 8. 	Individuals who are incarcerated. Prisons and jails, as part of their mitigation plans, will have specific guidance on the wearing of face coverings or masks for both inmates and staff.
 
 ### Instructions In Plain English Printed On a Poster
