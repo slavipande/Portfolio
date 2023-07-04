@@ -1,7 +1,7 @@
 ---
 title: About Me
 icon: fa-info
-order: 4
+order: 5
 ---
 
 I've always been fascinated by technology and curious about how things work. Back in highschool, we'd take printers and monitors to pieces to find out what components they had. In university during my four-year computer science studies, I'd enjoy diving deep into a tech problem or spending days to figure how a tool worked. Although I fully understood the tech concepts and navigated my way through any programming assignments, I never really got into writing code. It just wasn't the thing that excited me about technology.
