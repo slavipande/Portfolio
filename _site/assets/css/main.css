@@ -442,7 +442,7 @@ section > :last-child, section > .container, section:last-child, section > .cont
 .row > section, .row > article { margin-bottom: 0; }
 section .row, article .row { margin-top: 40px; }
 section .row > *, article .row > * { padding-top: 0; }
-section ul, section ol, article ul, article ol { padding-left: 0.25em; margin-left: 1.25em; }
+section ul, section ol, article ul, article ol { padding-left: 0; margin-left: 0.75em; }
 
 /* Image */
 .image { display: inline-block; border: 0; }
@@ -460,7 +460,7 @@ section ul, section ol, article ul, article ol { padding-left: 0.25em; margin-le
 ul { list-style: disc; }
 ul.icons { cursor: default; }
 ul.icons li { display: inline-block; }
-ul.icons a { display: inline-block; width: 2em; height: 2em; line-height: 2em; text-align: center; border: 0; }
+ul.icons a { display: inline-block; width: 2em; height: 2em; line-height: 2em; text-align: left; border: 0; }
 
 ol { list-style: decimal; }
 
@@ -546,7 +546,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 #main > section.dark, #main article.dark { color: #ddd; color: rgba(255, 255, 255, 0.75); }
 #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6, #main article.dark h2, #main article.dark h3, #main article.dark h4, #main article.dark h5, #main article.dark h6 { color: inherit; }
 #main > section.dark strong, #main article.dark strong { color: #fff; border-color: inherit; }
-#main > section.dark a, #main article.dark a { color: #fff; border-color: inherit; }
+#main > section.dark a, #main article.dark a { border-color: inherit; }
 #main > section.dark a:hover, #main article.dark a:hover { border-bottom-color: rgba(255, 255, 255, 0); }
 #main > section.cover, #main article.cover { padding: 6em 0; position: relative; z-index: 0; }
 #main > section.cover img.back, #main article.cover img.back { position: absolute; object-fit: cover; width: 100%; height: 100%; left: 0; top: 0; z-index: -1; }
@@ -635,3 +635,18 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   /* Footer */
   #footer .copyright li { display: block; line-height: 1.25em; border: 0; padding: 0; margin: 1em 0 0 0; }
   #footer .copyright li:first-child { margin-top: 0; } }
+/* Breadcrumb */
+/* Style the list */
+ul.breadcrumb { margin-left: 0; list-style: none; }
+
+/* Display list items side by side */
+ul.breadcrumb li { display: inline; font-size: 18px; }
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before { padding: 8px; color: black; content: "/\00a0"; }
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a { text-decoration: none; }
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover { color: #90D3DB; text-decoration: none; }
