@@ -4,6 +4,12 @@ icon: fa-check
 hide: true
 ---
 
+<ul class="breadcrumb">
+  <li><a href="./#" class="icon fa-home">  Home</a></li>
+  <li><a href="./#portfolio" class="icon fa-th">  Portfolio</a></li>
+  <li>Plain English</li>
+</ul>
+
 ![Plain English Illustration](assets/images/undraw_Personal_notebook_re_d7dc.png)
 
 ### Context

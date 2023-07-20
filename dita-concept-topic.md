@@ -5,6 +5,12 @@ icon: fa-check
 hide: true
 ---
 
+<ul class="breadcrumb">
+  <li><a href="./#" class="icon fa-home">  Home</a></li>
+  <li><a href="./#portfolio" class="icon fa-th">  Portfolio</a></li>
+  <li>DITA Concept Topic</li>
+</ul>
+
 ![Concept Topic Illustration](assets/images/undraw_Online_information_re_erks.png)
 
 ### Context

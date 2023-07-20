@@ -5,6 +5,12 @@ icon: fa-check
 hide: true
 ---
 
+<ul class="breadcrumb">
+  <li><a href="./#" class="icon fa-home">  Home</a></li>
+  <li><a href="./#portfolio" class="icon fa-th">  Portfolio</a></li>
+  <li>Enable Blogging in MkDocs</li>
+</ul>
+
 ![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
 
 ### Context

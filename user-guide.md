@@ -5,6 +5,12 @@ icon: fa-check
 hide: true
 ---
 
+<ul class="breadcrumb">
+  <li><a href="./#" class="icon fa-home">  Home</a></li>
+  <li><a href="./#portfolio" class="icon fa-th">  Portfolio</a></li>
+  <li>User Guide</li>
+</ul>
+
 ![User Guide Illustration](assets/images/undraw_Steps_re_odoy.png)
 
 ### Context
