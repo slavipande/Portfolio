@@ -132,7 +132,7 @@
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		@include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 		outline: 0;
-
+		
 		&:hover {
 			color: #90D3DB;
 			border-bottom-color: rgba(255, 255, 255, 0);
@@ -243,6 +243,10 @@
 		img {
 			display: block;
 			width: 100%;
+		}
+
+		&:hover {
+			transform:scale(1.02);
 		}
 
 		&.avatar48 {
@@ -455,7 +459,7 @@
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
-
+		
 		header {
 			color: #666;
 			text-align: center;
