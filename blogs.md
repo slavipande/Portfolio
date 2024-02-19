@@ -23,6 +23,7 @@ Writing blog posts is not part of my day-to-day tasks and I do not have any sign
 - [Enable Blogging Capabilities with Material for MkDocs](https://www.dirigible.io/blogs/2021/11/2/material-blogging-capabilities/)
 - [Dirigible now runs Material for MkDocs](https://www.dirigible.io/blogs/2021/11/1/dirigible-runs-material/)
 - [Impressions from My First tcworld Conference](tcworld-impressions-SP). This article was also [published in Bulgarian](https://www.techwritersbg.org/articles/vpechatleniya-ot-parvata-mi-tcworld-konferentsiya.html) on the website of the Bulgarian tech writers community (https://techwritersbg.org).
+- [Creating a Tech Writing Portfolio with Docs as Code Tooling - Preliminary Setup](https://slavipande.github.io/Workshop-TechWritingPortfolio/blog/tcworldworkshop-preliminary-setup)
 
 
 <!-- ### [Grow As Tech Writer blog](grow-as-tech-writer-blog.html)
