@@ -11,7 +11,9 @@ hide: true
   <li>How-to Instructions</li>
 </ul>
 
-![Step-by-Step Illustration](assets/images/undraw_tasks_re_v2v4.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/undraw_tasks_re_v2v4.png" alt="Step-by-Step Illustration" %}
+
 
 ### Context
 I wrote these instructions as part of a technical writing course I took in 2020 - [Become Technical Writer](https://becometechnicalwriter.com/) led by [Bobby Kennedy](https://www.linkedin.com/in/robert-b-kennedy-a2458b224/). I found out about the course from the Write the Docs' [Slack Network](https://www.writethedocs.org/slack/) where Bobby posted a call for beta testers. I was quick and lucky enough to respond and became one of the beta testers for the course. Later I also bought the course itself as I felt there was still a lot to learn (not to mention that all beta testers got a discount (: ). This how-to document was part of the assignments I completed throughout the course.

@@ -10,7 +10,9 @@ hide: true
   <li>Plain English</li>
 </ul>
 
-![Plain English Illustration](assets/images/undraw_Personal_notebook_re_d7dc.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/undraw_Personal_notebook_re_d7dc.png" alt="Plain English Illustration" %}
+
 
 ### Context
 
@@ -35,7 +37,8 @@ SECTION 7: The mandatory provisions of this Directive shall not apply to:
 Use Case:
 As the manager of Big Box Store, I need to post these directives. The poster below states who is excluded.
 
-![Canva Poster](assets/images/poster_after.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/poster_after.png" alt="Canva Poster" %}
 
 
 ### Tools

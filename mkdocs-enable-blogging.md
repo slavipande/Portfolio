@@ -11,7 +11,9 @@ hide: true
   <li>Enable Blogging in MkDocs</li>
 </ul>
 
-![Enable Blogging Illustration](assets/images/undraw_Blogging_re_kl0d.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/undraw_Blogging_re_kl0d.png" alt="Enable Blogging Illustration" %}
+
 
 ### Context
 [Eclipse Dirigible](https://www.dirigible.io/) is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development life cycle. I've supported the project for around 18 months, contributing and editing content in the [Eclipse Dirigible Documentation](https://www.dirigible.io/help/), adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation homepage's look and feel.
@@ -22,23 +24,22 @@ Although initially built with [Jekyll](https://jekyllrb.com/), at one point the 
 
 At this point, Material for MkDocs did not support blogging capabilities out-of-the-box. While exploring the Material for MkDocs' site, I saw a page that included author's name and avatar, publish date, and reading time at the top, much like a blog. 
 
-| ![Blog Screenshot](assets/images/blog-screenshot.png) |
-|:--:| 
-| *Screenshot from October 11, 2021* |
+
+{% include image.html width="100%" height="auto" file="assets/images/blog-screenshot.png" alt="Enable Blogging Illustration" caption="" %}
+
 
 I suggested to the team that we try to replicate this for the [Eclipse Dirigible Blogs](https://www.dirigible.io/blogs/) site.
 I opened a [discussion](https://github.com/squidfunk/mkdocs-material/discussions/3101) in the [Material for MkDocs repository](https://github.com/squidfunk/mkdocs-material/discussions). The maintainer, [Martin Donath](https://github.com/squidfunk), responded right away that this was an all-manual process involving just HTML + CSS and also provided the raw code of his own implementation. 
 
 
-| ![Original Markdown](assets/images/original-md.png) | 
-|:--:| 
-| *Screenshot from November 1, 2021* |
+{% include image.html width="100%" height="auto" file="assets/images/original-md.png" alt="Original Markdown" caption="" %}
+
 
 Copy-pasting this in a dirigible blog and replacing the values as needed (and adapting the corresponding CSS, of course) provided the expected result:
 
-| ![Blog Dirigible Screenshot](assets/images/blog-dirigible-screenshot.png) |
-|:--:| 
-| *Screenshot from October 15, 2021* |
+
+{% include image.html width="100%" height="auto" file="assets/images/blog-dirigible-screenshot.png" alt="Blog Dirigible Screenshot" caption="" %}
+
 
 However, this meant that each author had to manually paste a block of HTML in their markdown file each time they write a new blog post. This was not the best approach for us and we wanted to have the blogging capabilities enabled if relevant metadata is provided in the markdown source. 
 
@@ -62,7 +63,7 @@ In [Meta-Data](https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data), 
 
 - Armed with my observations, I set up a call with the dev colleagues and explained what changes we had to make. Thanks to the conditional syntax in the template files, we were able to extend the `main.html` with an additional `content` block that's only included if a value is provided for `author_gh_user` in the metadata of the source file.
 
-    ![Blog HMTL](assets/images/blog-html.png)
+{% include image.html width="100%" height="auto" file="assets/images/blog-html.png" alt="Blog HMTL" caption="" %}
 
 - Added a [Blogs](https://www.dirigible.io/help/community/#blogs) section to the [Community](https://www.dirigible.io/help/community/) page with instructions for authors on how to enable the blogging capabilities when writing a blog.
 

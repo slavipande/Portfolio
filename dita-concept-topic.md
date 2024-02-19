@@ -11,7 +11,9 @@ hide: true
   <li>DITA Concept Topic</li>
 </ul>
 
-![Concept Topic Illustration](assets/images/undraw_Online_information_re_erks.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/undraw_Online_information_re_erks.png" alt="Concept Topic Illustration" %}
+
 
 ### Context
 I wrote this concept topic in Oxygen XML Author. It represents the first stage of a bigger project I was leading. The project started based on customer requests and included initial research to collect information, starting a documentation update initiative for over 100 services, tracking the initiative progress in Jira, and consulting a large number of authors about how to comply with the documentation update requirements. As a result, services' documentation sets were updated to better respond to the customers' information demand. 

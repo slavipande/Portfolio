@@ -11,7 +11,9 @@ hide: true
   <li>Developer Tutorials</li>
 </ul>
 
-![Dev Tutorials Illustration](assets/images/undraw_Programming_re_kg9v.png)
+
+{% include image.html width="100%" height="auto" file="assets/images/undraw_Programming_re_kg9v.png" alt="Dev Tutorials Illustration" %}
+
 
 ### Context
 These tutorials guide beginner and experienced developers through the steps of local development, deployment in the cloud, and extension of a sample app following the [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap/docs/about/). They are grouped into missions and published to the [SAP Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html).
