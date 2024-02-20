@@ -40,12 +40,46 @@ The workshop consists of a [preliminary setup](https://slavipande.github.io/Work
 - fork the theme repo and customize the theme  to better suit the needs of a tech writing portfolio website
 - publish the website so that it's live on the Internet and ready to be populated with work samples
 
-> [Get the slides](https://slavipande.github.io/Workshop-TechWritingPortfolio/assets/docs/Creating-a-Tech-Writing-Portfolio-With-Docs-As-Code-Tooling.pdf)
-
-> [A cheat sheet](https://slavipande.github.io/Workshop-TechWritingPortfolio/exercise-cheat-sheet) with all exercise steps
-
-> [Workshop details](https://tcworldconference.tekom.de/conference-program/detail/creating-a-tech-writing-portfolio-with-docs-as-code-tooling-1#1103)
-
 ## Conclusion
 
 Presenting at a conference can feel scary when you initially think about it. However, once you get through it, I promise that it's much more rewarding than the initial amount of stress. The feeling of a job well done, the fulfillment of managing to actually help someone else achieve their goal, the feedback from participants, and the subsequent confidence that it brings are immensely inspiring. To the point that I felt like I'd like to go talk at more conferences and really kick-start the discussion about portfolios among technical communicators in our part of the world.
+
+## Links
+
+- [Get the slides](https://slavipande.github.io/Workshop-TechWritingPortfolio/assets/docs/Creating-a-Tech-Writing-Portfolio-With-Docs-As-Code-Tooling.pdf)
+- [Cheat sheet with all exercise steps](https://slavipande.github.io/Workshop-TechWritingPortfolio/exercise-cheat-sheet)
+- [Workshop details](https://tcworldconference.tekom.de/conference-program/detail/creating-a-tech-writing-portfolio-with-docs-as-code-tooling-1#1103)
+
+<!--
+<div class="row">
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="https://slavipande.github.io/Workshop-TechWritingPortfolio/assets/docs/Creating-a-Tech-Writing-Portfolio-With-Docs-As-Code-Tooling.pdf" class="image fit"><img src="{{ 'assets/images/Slide1.jpg' | relative_url }}" alt="Get the slides" />
+          <div class="overlay">
+            <h3>Get the slides</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="https://slavipande.github.io/Workshop-TechWritingPortfolio/exercise-cheat-sheet" class="image fit"><img src="{{ 'assets/images/cheat-sheet.png' | relative_url }}" alt="Cheat sheet with all exercise steps" />
+          <div class="overlay">
+            <h3>Cheat sheet with all exercise steps</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="https://tcworldconference.tekom.de/conference-program/detail/creating-a-tech-writing-portfolio-with-docs-as-code-tooling-1#1103" class="image fit"><img src="{{ 'assets/images/workshop-details.png' | relative_url }}" alt="Workshop details" />
+          <div class="overlay">
+            <h3>Workshop details</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+</div>
+
+-->
+
