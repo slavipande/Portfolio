@@ -15,4 +15,4 @@ hide: true
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFOFrDnBXg&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="assets/docs/Resume-SPandeliev.pdf">Download as PDF</a>
+<a href="assets/docs/resume.pdf">Download as PDF</a>
