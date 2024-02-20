@@ -48,7 +48,7 @@ Presenting at a conference can feel scary when you initially think about it. How
 
 - [Get the slides](https://slavipande.github.io/Workshop-TechWritingPortfolio/assets/docs/Creating-a-Tech-Writing-Portfolio-With-Docs-As-Code-Tooling.pdf)
 - [Cheat sheet with all exercise steps](https://slavipande.github.io/Workshop-TechWritingPortfolio/exercise-cheat-sheet)
-- [Workshop details](https://tcworldconference.tekom.de/conference-program/detail/creating-a-tech-writing-portfolio-with-docs-as-code-tooling-1#1103)
+- [Workshop details](workshop)
 
 <!--
 <div class="row">
