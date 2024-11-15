@@ -12,7 +12,7 @@ hide: true
 </ul>
 
 
-{% include image.html width="100%" height="auto" file="assets/images/undraw_Online_information_re_erks.png" alt="Concept Topic Illustration" %}
+{% include image.html max-width="100%" height="auto" file="assets/images/undraw_Online_information_re_erks.png" alt="Concept Topic Illustration" %}
 
 
 ### Context

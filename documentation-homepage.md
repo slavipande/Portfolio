@@ -11,7 +11,7 @@ hide: true
   <li>Documentation Homepage</li>
 </ul>
 
-{% include image.html width="100%" height="auto" file="assets/images/undraw_Building_blocks_re_5ahy.png" alt="Help Portal Homepage Illustration" %}
+{% include image.html max-width="100%" height="auto" file="assets/images/undraw_Building_blocks_re_5ahy.png" alt="Help Portal Homepage Illustration" %}
 
 ### Context
 [Eclipse Dirigible](https://www.dirigible.io/) is an application development platform that leverages in-system programming and rapid application development techniques to support a complete app development life cycle. I've supported the project for around 18 months, contributing and editing content in the [Eclipse Dirigible Documentation](https://www.dirigible.io/help/), adjusting documentation structure, updating screenshots, reviewing UI strings, writing blogs, testing code samples, and updating the documentation homepage's look and feel.

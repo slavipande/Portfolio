@@ -10,7 +10,7 @@ hide: true
 </ul>
 
 
-{% include image.html width="100%" height="auto" file="assets/images/undraw_Shared_workspace_re_3gsu.png" alt="Workshop Illustration" %}
+{% include image.html max-width="100%" height="auto" file="assets/images/undraw_Shared_workspace_re_3gsu.png" alt="Workshop Illustration" %}
 
 
 ## Intro

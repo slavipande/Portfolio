@@ -12,7 +12,7 @@ hide: true
 </ul>
 
 
-{% include image.html width="100%" height="auto" file="assets/images/undraw_Youtube_tutorial_re_69qc.png" alt="Instructional Video Illustration" %}
+{% include image.html max-width="100%" height="auto" file="assets/images/undraw_Youtube_tutorial_re_69qc.png" alt="Instructional Video Illustration" %}
 
 
 ### Context

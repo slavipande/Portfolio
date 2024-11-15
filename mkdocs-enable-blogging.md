@@ -12,7 +12,7 @@ hide: true
 </ul>
 
 
-{% include image.html width="100%" height="auto" file="assets/images/undraw_Blogging_re_kl0d.png" alt="Enable Blogging Illustration" %}
+{% include image.html max-width="100%" height="auto" file="assets/images/undraw_Blogging_re_kl0d.png" alt="Enable Blogging Illustration" %}
 
 
 ### Context
