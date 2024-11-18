@@ -49,7 +49,7 @@ More often than not, great documentation comes as a result of the collaboration 
 - Search through internal and external community discussions to find solutions for the errors and adjust the tutorial.
 - Discuss tutorial scenario, structure, and any unsolved errors with the team.
 - Make changes as needed and test again.
-- Send the updated tutorial for testing to other colleagues. 
+- Get a peer review. 
 - Publish.
 
 
