@@ -14,11 +14,31 @@ order: 4
         </a>
       </div>
     </div>
+    <!--
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="workshop.html" class="image fit"><img src="{{ 'assets/images/undraw_Shared_workspace_re_3gsu.png' | relative_url }}" alt="Workshop" />
+        <a href="in-depth.html" class="image fit"><img src="{{ 'assets/images/undraw_Detailed_information_re_qmuc.png' | relative_url }}" alt="In-depth" />
           <header>
-            <h3>Workshop</h3>
+            <h3>In-depth</h3>
+          </header>
+        </a>
+      </div>
+    </div>
+    -->
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="volunteering.html" class="image fit"><img src="{{ 'assets/images/undraw_Join_re_w1lh.png' | relative_url }}" alt="Volunteering" />
+          <header>
+            <h3>Volunteering</h3>
+          </header>
+        </a>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="presentations-and-talks.html" class="image fit"><img src="{{ 'assets/images/undraw_All_the_data_re_hh4w.png' | relative_url }}" alt="Presentations & Talks" />
+          <header>
+            <h3>Presentations & Talks</h3>
           </header>
         </a>
       </div>
