@@ -16,24 +16,22 @@ hide: true
 
 
 ### Context
-These tutorials guide developers through the steps of development, deployment in the cloud, and extension of a sample app in accordance with the [SAP BTP Developers' Guide](https://help.sap.com/docs/btp/btp-developers-guide/tutorials-for-sap-cloud-application-programming-model?version=Cloud) and following the [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap/docs/about/). The tutorials are divided into groups and published to the [SAP Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html).
+These tutorials guide developers through the steps of development, deployment in the cloud, and extension of a sample app in accordance with the [SAP Business Technology Platform (BTP) Developers' Guide](https://help.sap.com/docs/btp/btp-developers-guide/tutorials-for-sap-cloud-application-programming-model?version=Cloud) and following the [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap/docs/about/). The tutorials are divided into groups and published to the [SAP Tutorial Navigator](https://developers.sap.com/tutorial-navigator.html).
 
 ### Links
 - [Develop a Full-Stack CAP Application Following SAP BTP Developer’s Guide](https://developers.sap.com/group.cap-application-full-stack.html) 
-  > Tutorials focus on developing a CAP application from scratch using [SAP Business Application Studio](https://help.sap.com/docs/bas), including creating the data model and services, adding SAP Fiori elements UIs and some custom logic, adding authorization, test cases, and a local launch page for the app, and preparing the app for productive deployment.
+  > Tutorials focus on developing a CAP app from scratch using [SAP Business Application Studio](https://help.sap.com/docs/bas), including creating the data model and services, adding SAP Fiori elements UIs and some custom logic, adding authorization, test cases, and a local launch page for the app, and preparing the app for productive deployment.
 - [Deploy a Full-Stack CAP Application in SAP BTP, Cloud Foundry Runtime Following SAP BTP Developer’s Guide](https://developers.sap.com/group.deploy-full-stack-cap-application.html)      
   > Tutorials focus on admin tasks such as adding entitlements and creating service intances in SAP BTP, setting up the app for deployment to the SAP BTP, Cloud Foundry runtime, adding user roles post deployment, setting up authorization workflows, and setting up a CI/CD pipeline so the app is redeployed whenever it's updated.
 - [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime Following SAP BTP Developer’s Guide](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
-  > Tutorials focus on admin tasks such as adding entitlements and creating service intances in SAP BTP, using VS Code locally to sett up the app for deployment to the SAP BTP, Kyma runtime, adding user roles post deployment, setting up authorization workflows, and setting up a CI/CD pipeline so the app is redeployed whenever it's updated.
+  > Tutorials focus on admin tasks such as adding entitlements and creating service intances in SAP BTP, using VS Code locally to set up the app for deployment to the SAP BTP, Kyma runtime, adding user roles post deployment, setting up authorization workflows, and setting up a CI/CD pipeline so the app is redeployed whenever it's updated.
+  - [Consume Remote Services from a Mock Server in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Cloud Foundry Runtime](https://developers.sap.com/group.sap-mock-consume-remote-services.html)
+  > Tutorials focus on extending and integrating the CAP app with an external service definition from SAP Business Accelerator Hub, testing the app locally with mocked data, deploying a mock server, creating a destination so that the app connects to the mock server, and testing if the app fetches data from the mock server.
+  - [Consume Remote Services from S/4HANA Cloud in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Cloud Foundry Runtime](https://developers.sap.com/group.sap-s4hana-consume-remote-services.html)
+  > Tutorials focus on extending and integrating the CAP app with an external service definition from SAP Business Accelerator Hub, testing the app locally with mocked data, adding an SAP S/4HANA Cloud system to SAP BTP, configuring the app, and testing if the app fetches data from the SAP S/4HANA Cloud system.
 
 
 <!-- 
-- [Build an Application End-to-End Using CAP, Node.js and VS Code](https://developers.sap.com/mission.btp-application-cap-e2e.html)
-- [Configure and Run a Predefined SAP Continuous Integration and Delivery (CI/CD) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html)
-- [Consume Remote Services from SAP S/4HANA Cloud Using CAP](https://developers.sap.com/mission.btp-consume-external-service-cap.html)
-- [Consume Remote Services from SAP S/4HANA Using CAP](https://developers.sap.com/mission.btp-consume-external-service-s4hana-cap.html)
-- [Consume Events from SAP S/4HANA Cloud Using CAP](https://developers.sap.com/mission.btp-consume-events-s4hana-cloud-cap.html)
-- [Deploy Your CAP Application on SAP BTP Kyma Runtime](https://developers.sap.com/mission.btp-deploy-cap-kyma.html)
 - [Create an SAP Fiori Elements-Based Analytical UI for your CAP Application](https://developers.sap.com/tutorials/btp-app-analytics-setup-use.html)
 -->
 
