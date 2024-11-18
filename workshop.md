@@ -1,12 +1,12 @@
 ---
-title: Workshop
+title: Creating a Tech Writing Portfolio with Docs as Code Tooling
 hide: true
 ---
 
 <ul class="breadcrumb">
   <li><a href="./#" class="icon fa-home">  Home</a></li>
   <li><a href="./#experience" class="icon fa-list">  Experience</a></li>
-  <li>Workshop</li>
+  <li>[Workshop] Creating a Tech Writing Portfolio with Docs as Code Tooling</li>
 </ul>
 
 
