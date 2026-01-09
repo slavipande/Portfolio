@@ -26,18 +26,9 @@ hide: true
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="webinar.html" class="image fit"><img src="{{ 'assets/images/undraw_Group_video_re_btu7.png' | relative_url }}" alt="Webinar" />
+        <a href="https://document360.com/webinar/creating-tech-writing-portfolios-with-docs-as-code-tooling/" class="image fit"><img src="{{ 'assets/images/undraw_Group_video_re_btu7.png' | relative_url }}" alt="Webinar" />
           <header>
             <h3>[Webinar] Creating Tech Writing Portfolios with Docs as Code Tooling</h3>
-          </header>
-        </a>
-      </div>
-    </div>
-    <div class="4u 12u$(mobile)">
-      <div class="item">
-        <a href="case-study.html" class="image fit"><img src="{{ 'assets/images/undraw_Collaborators_re_hont.png' | relative_url }}" alt="Case Study" />
-          <header>
-            <h3>Streamlining Success - A Case Study on Mastering Cross-Product Documentation</h3>
           </header>
         </a>
       </div>
